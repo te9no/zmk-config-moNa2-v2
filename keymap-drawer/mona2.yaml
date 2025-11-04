@@ -132,9 +132,9 @@ layers:
   '3':
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
-  - PRINTSCREEN
+  - UP
   - Ctl+TAB
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - HOME
   - UP ARROW
@@ -151,8 +151,8 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
+  - BACKSPACE
+  - DELETE
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
