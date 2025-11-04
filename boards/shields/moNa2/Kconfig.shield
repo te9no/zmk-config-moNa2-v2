@@ -1,5 +1,5 @@
-config SHIELD_mona2_R
+config SHIELD_MONA2_R
     def_bool $(shields_list_contains,mona2_r)
 
-config SHIELD_mona2_L
+config SHIELD_MONA2_L
     def_bool $(shields_list_contains,mona2_l)
