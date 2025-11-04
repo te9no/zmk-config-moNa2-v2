@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: moNa2}
+layout: {zmk_keyboard: mona2}
 layers:
   default:
   - Q
