@@ -1,1 +1,1 @@
-![moNa2 Keymap](keymap-drawer/moNa2.svg)
+![mona2 Keymap](keymap-drawer/mona2.svg)

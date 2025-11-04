@@ -2,7 +2,7 @@ file_format: "1"
 id: mona2
 name: mona2
 type: shield
-url: https://github.com/sayu-hub/zmk-config-moNa2.0
+url: https://github.com/sayu-hub/zmk-config-mona2.0
 requires: [seeeduino_xiao_ble]
 features:
   - keys
