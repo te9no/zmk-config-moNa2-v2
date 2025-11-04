@@ -150,7 +150,7 @@ layers:
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
-  - Ctl+LG(RIGHT ARROW
+  - Ctl+Gui+RIGHT ARROW
   - BACKSPACE
   - DELETE
   - Gui+Sft+LEFT ARROW
