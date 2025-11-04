@@ -144,13 +144,13 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - '&tranv'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
-  - LC(LG(RIGHT ARROW)x
+  - Ctl+LG(RIGHT ARROW
   - BACKSPACE
   - DELETE
   - Gui+Sft+LEFT ARROW
