@@ -76,7 +76,7 @@
         wait-ms = <0>;
         tap-ms = <10>;
     };
-}
+};
 
 // Overrides for the input listener node
 &trackball_central_listener {
