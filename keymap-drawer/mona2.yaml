@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: mona2}
+layout: {zmk_keyboard: moNa2}
 layers:
   default:
   - Q
@@ -132,13 +132,19 @@ layers:
   '3':
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
-  - UP
-  - Ctl+TAB
   - PRINTSCREEN
+  - Ctl+TAB
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - UP ARROW
   - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
+  - Gui+RIGHT ARROW
+  - Ctl+Gui+LEFT ARROW
+  - Ctl+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
@@ -146,13 +152,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Gui+RIGHT ARROW
-  - Ctl+Gui+LEFT ARROW
-  - Ctl+Gui+RIGHT ARROW
-  - BACKSPACE
-  - DELETE
+  - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
