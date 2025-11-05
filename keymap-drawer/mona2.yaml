@@ -21,8 +21,8 @@ layers:
   - J
   - K
   - L
-  - SEMICOLON
-  - {t: Z, h: LEFT SHIFT}
+  - SEMI
+  - {t: Z, h: LSHFT}
   - X
   - C
   - V
@@ -35,14 +35,14 @@ layers:
   - DOT
   - SLASH
   - LCTRL
-  - LEFT WIN
+  - LGUI
   - F16
-  - BACKSPACE
+  - BKSP
   - {t: ENTER, h: '2'}
   - {t: '&to_layer_0 LANG2', h: '3'}
   - {t: '&to_layer_0 LANG1', h: '3'}
   - {t: SPACE, h: '1'}
-  - LEFT ALT
+  - LALT
   '1':
   - '1'
   - '2'
@@ -61,8 +61,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT PARENTHESIS
-  - RIGHT PARENTHESIS
+  - LPAR
+  - RPAR
   - {t: ▽, type: trans}
   - BSLH
   - {t: ▽, type: trans}
@@ -88,18 +88,18 @@ layers:
   - {t: ▽, type: trans}
   '2':
   - '!'
-  - AT SIGN
-  - POUND
-  - DOLLAR
-  - PERCENT
+  - AT
+  - HASH
+  - DLLR
+  - PRCNT
   - CARET
-  - AMPERSAND
-  - ASTERISK
+  - AMPS
+  - ASTRK
   - MINUS
-  - UNDERSCORE
+  - UNDER
   - GRAVE
   - TILDE
-  - DOUBLE QUOTES
+  - DQT
   - SQT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -137,10 +137,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
-  - UP ARROW
+  - UP
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+<<<<<<< HEAD
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
@@ -155,13 +156,29 @@ layers:
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
+=======
+  - LEFT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+LEFT
+  - Gui+RIGHT
+  - Ctl+Gui+LEFT
+  - Ctl+Gui+RIGHT
+  - BACKSPACE
   - DELETE
-  - PAGE UP
-  - PAGE DOWN
+  - Gui+Sft+LEFT
+  - Gui+Sft+RIGHT
+>>>>>>> 676a8b8027b712507d1f7fe5c0d42f609d761142
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEL
+  - PG UP
+  - PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
