@@ -80,6 +80,9 @@ jobs:
         with:
           path: firmware/${{ steps.branch-name.outputs.branch }}
 
+      - name: Rebase onto latest remote
+        run: git pull --rebase --autostash origin ${{ steps.branch-name.outputs.branch }}
+
       - name: Commit updated images
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
