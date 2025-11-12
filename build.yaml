@@ -1,7 +1,7 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: moNa2_R rgbled_adapter
+    shield: moNa2_R rgbled_adapter nice_oled
     snippet: studio-rpc-usb-uart zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: moNa2_L rgbled_adapter
