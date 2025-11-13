@@ -12,9 +12,6 @@ if SHIELD_MONA2_R
     config INPUT
         default y
 
-    config ZMK_POINTING
-        default y
-
     config SPI
         default y
 
@@ -46,14 +43,10 @@ if SHIELD_MONA2_R
     
 endif
 
-if SHIELD_MONA2_L
+if SHIELD_MONA2_R || SHIELD_MONA2_L
 
     config ZMK_POINTING
         default y
-
-endif
-
-if SHIELD_MONA2_R || SHIELD_MONA2_L
 
     config NFCT_PINS_AS_GPIOS
         default y

@@ -14,6 +14,8 @@ manifest:
       url-base: https://github.com/te9no
     - name: kot149
       url-base: https://github.com/kot149
+    - name: t-ogura
+      url-base: https://github.com/t-ogura
   projects:
     - name: zmk
       remote: te9no
@@ -26,7 +28,7 @@ manifest:
       remote: badjeff
       revision: main
     - name: zmk-nice-oled
-      remote: mctechnology17
+      remote: te9no
       revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
@@ -37,5 +39,10 @@ manifest:
     - name: zmk-layout-shift
       remote: kot149
       revision: v1
+    - name: prospector-zmk-module
+      remote: t-ogura
+      revision: v1.1.1
+      path: modules/prospector-scanner-zmk-module
   self:
     path: config
+  
