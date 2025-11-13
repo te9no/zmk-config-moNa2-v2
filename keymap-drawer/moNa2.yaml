@@ -82,7 +82,7 @@ layers:
   - ENTER
   - {t: ENTER, type: held}
   - ENTER
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -125,7 +125,7 @@ layers:
   - ENTER
   - ENTER
   - {t: ENTER, type: held}
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,7 +168,7 @@ layers:
   - ENTER
   - ENTER
   - ENTER
-  - {type: held}
+  - {t: ENTER, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
