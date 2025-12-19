@@ -34,7 +34,7 @@ layers:
   - COMMA
   - DOT
   - SLASH
-  - {t: LCTRL, h: ESC}
+  - {t: ESC, h: LCTRL}
   - LGUI
   - LALT
   - {t: BACKSPACE, h: '1'}
@@ -44,20 +44,20 @@ layers:
   - {t: SPACE, h: '1'}
   - LALT
   '1':
-  - {t: ▽, type: trans}
   - Ctl+Sft+TAB
   - UP
   - Ctl+TAB
+  - {t: ▽, type: trans}
   - PRINTSCREEN
   - {t: ▽, type: trans}
   - HOME
   - UP
   - END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -227,9 +227,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
